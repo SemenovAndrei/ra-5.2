@@ -5,12 +5,17 @@ import styled from 'styled-components'
 const Images = styled.img`
   width: 40%;
 `
+const Link = styled.a`
+  text-decoration: none;
+`
 
 function Aside(props) {
   return (
     <div>
       <Images src={props.src} alt={props.title} />
-      <h3>{props.title}</h3>
+      <h3>
+        <Link href="#0">{props.title}</Link>
+      </h3>
       <p>{props.text}</p>
     </div>
   )
