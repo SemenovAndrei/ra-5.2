@@ -1,14 +1,14 @@
 import './App.css'
-import ExchangeRates from './components/ExchangeRates/ExchangeRates'
-import Filters from './components/Filters/Filters'
-import NewsList from './components/NewsList/NewsList'
+import SearchBlock from './components/SearchBlock/SearchBlock'
+import WidgetBottom from './components/WidgetBottom/WidgetBottom'
+import WidgetTop from './components/WidgetTop/WidgetTop'
 
 function App() {
   return (
     <div className="App">
-      <Filters />
-      <NewsList />
-      <ExchangeRates />
+      <WidgetTop />
+      <SearchBlock />
+      <WidgetBottom />
     </div>
   )
 }

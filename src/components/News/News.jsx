@@ -33,6 +33,11 @@ function News(props) {
   )
 }
 
+News.defaultProps = {
+  icon: 'https://cdn.pixabay.com/photo/2017/10/27/21/41/diablito-2895604_960_720.png',
+  href: '#0',
+}
+
 News.propTypes = {
   icon: PropTypes.string.isRequired,
   href: PropTypes.string.isRequired,
