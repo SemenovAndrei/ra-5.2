@@ -13,6 +13,9 @@ const rates = [
   { name: 'НЕФТЬ', value: '64.90', rate: '+1.63' },
 ]
 
+/**
+ * Блок курс валют
+ */
 export default function ExchangeRates() {
   return (
     <Container>

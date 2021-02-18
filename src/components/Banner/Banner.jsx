@@ -7,7 +7,9 @@ const Images = styled.img`
   height: 100px;
   object-fit: cover;
 `
-
+/**
+ * Блок с баннером
+ */
 export default function Banner() {
   return (
     <div>

@@ -9,7 +9,11 @@ const Container = styled.div`
 const Link = styled.a`
   text-decoration: none;
 `
-
+/**
+ * Блок со ссылкой на сервис
+ *
+ * @param {props} props
+ */
 function MenuApp(props) {
   return (
     <Container>

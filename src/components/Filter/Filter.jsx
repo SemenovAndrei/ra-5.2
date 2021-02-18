@@ -9,6 +9,11 @@ const Button = styled.button`
   font-size: 1.2rem;
 `
 
+/**
+ * Фильтр контента
+ *
+ * @param {props} props
+ */
 function Filter(props) {
   return <Button>{props.children}</Button>
 }

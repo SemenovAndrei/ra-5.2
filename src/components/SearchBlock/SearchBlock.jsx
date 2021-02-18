@@ -6,7 +6,9 @@ import SearchField from '../SearchField/SearchField'
 const Container = styled.div`
   margin-top: 10px;
 `
-
+/**
+ * Блок с поиском и ссылками
+ */
 export default function SearchBlock() {
   return (
     <Container>

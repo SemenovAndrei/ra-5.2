@@ -10,7 +10,11 @@ const Container = styled.div`
   margin-right: 10px;
   font-size: 16px;
 `
-
+/**
+ * Блок обертка для контента
+ *
+ * @param {props} props
+ */
 export function Card(props) {
   return (
     <Container>

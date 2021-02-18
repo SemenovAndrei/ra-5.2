@@ -26,6 +26,9 @@ const news = [
   },
 ]
 
+/**
+ * Блок новостей
+ */
 export default function NewsList() {
   return (
     <div>

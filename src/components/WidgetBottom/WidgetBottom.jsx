@@ -69,6 +69,9 @@ const data = [
   },
 ]
 
+/**
+ * Нижний виджет с баннером и карточками
+ */
 export default function WidgetBottom() {
   return (
     <Container>

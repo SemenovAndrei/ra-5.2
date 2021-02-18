@@ -29,7 +29,9 @@ const Button = styled.button`
   color: blue;
   font-size: 1.2rem;
 `
-
+/**
+ * Блок с полем поиска
+ */
 export default function SearchField() {
   return (
     <form>

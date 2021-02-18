@@ -8,7 +8,11 @@ const Images = styled.img`
 const Link = styled.a`
   text-decoration: none;
 `
-
+/**
+ * Боковой блок
+ *
+ * @param {props} props
+ */
 function Aside(props) {
   return (
     <div>

@@ -21,7 +21,11 @@ const Link = styled.a`
   text-decoration: none;
   color: inherit;
 `
-
+/**
+ * Блок с новостью
+ *
+ * @param {props} props
+ */
 function News(props) {
   return (
     <Container>

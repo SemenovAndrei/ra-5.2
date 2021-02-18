@@ -14,6 +14,11 @@ const Date = styled.div`
   font-size: 1rem;
 `
 
+/**
+ * Панель с фильтрами
+ *
+ * @param {props} props
+ */
 function Filters(props) {
   moment.locale('ru')
 

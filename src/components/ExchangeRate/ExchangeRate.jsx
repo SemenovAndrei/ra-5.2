@@ -9,7 +9,11 @@ const Container = styled.div`
 const Rate = styled.span`
   color: #b5b5b5;
 `
-
+/**
+ * Курс переданной валюты
+ *
+ * @param {props} props
+ */
 function ExchangeRate(props) {
   return (
     <Container>

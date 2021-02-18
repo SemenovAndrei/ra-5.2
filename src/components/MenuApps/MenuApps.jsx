@@ -17,6 +17,9 @@ const dataApps = [
   { title: 'ещё' },
 ]
 
+/**
+ * Блок со ссылками
+ */
 export default function MenuApps() {
   return (
     <Container>

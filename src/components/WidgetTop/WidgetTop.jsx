@@ -15,7 +15,9 @@ const AsideBlock = styled.div`
   bottom: 0;
   right: 0;
 `
-
+/**
+ * Верхний виджет - фильтры, новости, курсы валют, асайд
+ */
 export default function WidgetTop() {
   return (
     <Container>
